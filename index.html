@@ -9,23 +9,42 @@
     
 </head>
 <body>
-
-    <div class="boxes1">
-        <div class="b1"><p>1</p></div>
-        <div class="b1"><p>2</p></div>
-        <div class="b1"><p>3</p></div>
-        <div class="b1"><p>4</p></div>
+    <div class="group">
+        <div class="boxes1">
+            <a href="#" onclick="Toggle();" class="b1" id="b1"><p>1</p></a>
+            <a href="#" onclick="Toggle2();" class="b1" id="b2"><p>2</p></a>
+            <a href="#" onclick="Toggle3();" class="b1" id="b3"><p>3</p></a>
+            <a href="#" onclick="Toggle4();" class="b1" id="b4"><p>4</p></a>
+        </div>
+        <div class="boxes2">
+            <a href="#" onclick="Toggle5();" class="b1" id="b5"><p>e1</p></a>
+            <a href="#" onclick="Toggle6();" class="b1" id="b6"><p>e2</p></a>
+        </div>
     </div>
-    
-    <div class="boxes2">
-        <div class="b1"><p>e1</p></div>
-        <div class="b1"><p>e2</p></div>
+    <div class="video1">
+        <video id="audio1" src="answer1.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="Toggle();">
     </div>
-
-
-
-
-
+    <div class="video2">
+        <video id="audio2" src="answer2.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="Toggle2();">
+    </div>
+    <div class="video3">
+        <video id="audio3" src="answer3.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="Toggle3();">
+    </div>
+    <div class="video4">
+        <video id="audio4" src="answer4.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="Toggle4();">
+    </div>
+    <div class="video5">
+        <video id="audio5" src="answer5.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="Toggle5();">
+    </div>
+    <div class="video6">
+        <video id="audio6" src="answer6.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="Toggle6();">
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
